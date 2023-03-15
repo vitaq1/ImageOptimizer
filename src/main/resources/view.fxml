@@ -9,5 +9,6 @@
    <children>
       <Button fx:id="chooseFolderButton" layoutX="53.0" layoutY="62.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Выбрать папку" />
       <Label fx:id="chosenFolderLabel" layoutX="202.0" layoutY="66.0" prefHeight="17.0" prefWidth="119.0" text="null" />
+      <Button fx:id="startOptimizeButton" layoutX="244.0" layoutY="260.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Запуск" />
    </children>
 </AnchorPane>
