@@ -76,16 +76,7 @@ class Controller {
     private fun startOptimize() {
         if (selectedDirectory.exists() && selectedDirectory.isDirectory) {
             val arr = selectedDirectory.listFiles()
-            System.out.println(
-                "**********************************************"
-            );
-            System.out.println(
-                "Files from main directory : " + selectedDirectory
-            );
-            System.out.println(
-                "**********************************************"
-            );
-            // Calling recursive method
+
             Thread {
                 recursiveWalk(arr, 0)
                 showSuccessDialog()
